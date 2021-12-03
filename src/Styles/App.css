@@ -1,6 +1,6 @@
-.Apps{
-    background-color: black;
-    height: 100%;
+.App{
+    background-color: rgba(33,33,33);
+    height: 100Vh;
     width: 100%;
 }
 *{

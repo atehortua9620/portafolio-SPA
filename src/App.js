@@ -2,7 +2,7 @@
 import './Styles/App.css';
 
 import MyMenu from './Components/Menu';
-/* import Body from './Components/Body'; */
+import myIntroduce from './Components/Introduccion';
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       
 
       <MyMenu/>
-      {/* <Body/> */}
+      <myIntroduce/>
+      
     </div>
     
   );

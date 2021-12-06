@@ -2,7 +2,8 @@
 import './Styles/App.css';
 
 import MyMenu from './Components/Menu';
-import myIntroduce from './Components/Introduccion';
+import MyProfile from './Components/Profile'
+import ImBody from './Components/Body';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       
 
       <MyMenu/>
-      <myIntroduce/>
+      <MyProfile/>
+      <ImBody/>
       
     </div>
     

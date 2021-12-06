@@ -1,0 +1,29 @@
+.container{
+    display:flex;
+    margin-top: 150px;
+    justify-content:center;
+    align-content:center;
+    justify-content:space-between;
+    justify-content:space-around;
+    height: 600px;
+    width:100%;
+   /*  border: solid red 1px; */
+}
+.container img{
+    height:550px;
+}
+.type{
+    font-family:Roboto Mono;
+    color: white;
+
+}
+
+.title{
+    margin-top:110px;
+    font-size: 70px;
+    
+}
+.container div p{
+    margin-top: 20px;
+    font-size:25px;
+}

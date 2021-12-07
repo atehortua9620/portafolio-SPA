@@ -12,10 +12,10 @@ export default function ImBody (){
             
             <h2>SKILLS</h2>
             <div className="techcontainer">
-                <img className="tech" src={css} alt="tech" />
-                <img className="tech" src={html} alt="tech" />
-                <img className="tech" src={rect} alt="tech" />
-                <img className="tech" src={js} alt="tech" />
+                <a href=" https://developer.mozilla.org/es/docs/Web/CSS "><img className="tech" src={css} alt="tech" /></a>
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML"><img className="tech" src={html} alt="tech" /></a>
+                <a href="https://es.reactjs.org/"><img className="tech" src={rect} alt="tech" /></a>
+                <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript"><img className="tech" src={js} alt="tech" /></a>
             </div>
 
 

@@ -6,3 +6,18 @@
 *{
     margin: 0px;
 }
+.position{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.position-down{
+
+    display: flex;
+    margin-top: 150px;;
+    justify-content: flex-end;
+    transform: rotate(180deg);
+    
+}

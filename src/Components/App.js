@@ -1,12 +1,17 @@
 import React from "react";
+import {BrowserRouter as Router,  Switch,  Route, Link, BrowserRouter} from "react-router-dom";
+import sideBar from "./sidebar"
 
-import sideBar from "./sidebar";
 
 function App() {
   return (
-    <div>
-      <sideBar/>
-    </div>
+    <Router>
+
+      <link to="/">home</link>
+      <switch>
+        <Route path="/" component={sideBar}/>
+      </switch>
+    </Router>
   )
  
 }

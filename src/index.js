@@ -7,10 +7,9 @@ import {BrowserRouter as Router,  Switch,  Route, Link, BrowserRouter} from "rea
 
 
 ReactDOM.render(
-  <BrowserRouter>
+ 
     <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,6 @@
+.notfound{
+    display: flex;
+    position: absolute;
+    left: 35vw;
+    top: 0vh;
+}

@@ -6,9 +6,6 @@ import NotFound from "../Pages/notfound"
 import Menu from "./Menu"
 
 
-
-
-
 function App() {
   return (
     <BrowserRouter>

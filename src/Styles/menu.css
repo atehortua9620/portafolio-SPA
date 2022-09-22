@@ -36,6 +36,22 @@
     color: black;
 }
 .imgMenu{
-    height: 350px;
+    height: 250px;
     border-radius: 40px;
+}
+.logo{
+    height: 100px;
+    width: 80px;
+}
+.footerIM{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
 }

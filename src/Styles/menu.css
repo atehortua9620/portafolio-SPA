@@ -31,6 +31,7 @@
     /* border: 1px red solid; */
 }
 .linkMenu:hover{
+    transition: 1s;
     background-color: white;
     opacity: 0.3;
     color: black;
@@ -42,6 +43,7 @@
 .logo{
     height: 100px;
     width: 80px;
+    cursor: pointer;
 }
 .footerIM{
     display: flex;
@@ -50,8 +52,34 @@
     justify-content: center;
     align-items: center;
 }
+.logo:hover{
+    transition: 1s;
+    height: 130px;
+    width: 100px;
+
+}
 .parrafo{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
+}
+.iconsSocial{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.onlyIcon{
+    color: white;
+    cursor: pointer;
+    height: 20px;
+}
+
+.onlyIcon:hover{
+    transition: 0.5s;
+    height: 35px;
+    color: black;
+    
 }

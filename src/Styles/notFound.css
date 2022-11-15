@@ -1,6 +1,24 @@
 .notfound{
     display: flex;
     position: absolute;
-    left: 35vw;
+    left: 30vw;
     top: 0vh;
+    width: 65vw;
+    height: 100vh;
+    /* border: solid red 1px; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.notFoundIcon{
+    font-size: 20vh;
+    color: #433d48;
+}
+.sorry{
+    color:#433d48;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-top: 20px;
 }

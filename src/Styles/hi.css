@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    display: flex;
+    position: absolute;
+    left: 30vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top:0px;
+    width: 68vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    /* border: solid 1px red; */   
+}
+
+

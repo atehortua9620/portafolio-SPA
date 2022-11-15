@@ -1,6 +1,5 @@
 import react from "react";
-/* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {FaPlanetRinged} from '@fortawesome/free-solid-svg-icons'; */
+import { FaMugHot } from "react-icons/fa";
 
 import "../Styles/notFound.css"
 
@@ -9,8 +8,8 @@ function notFound(){
 
     return(
         <div className="notfound">
-            {/* <FontAwesomeIcon icon={FaPlanetRinged} /> */}
-            no encontrada
+            <FaMugHot className="notFoundIcon"/>
+            <h1 className=" ">SORRY...PAGE NOT FOUND</h1>
         </div>
     );
 }
